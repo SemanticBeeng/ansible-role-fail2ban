@@ -1,5 +1,10 @@
 ---
 # tasks file for fail2ban
+# #todo augment with
+#  * https://github.com/vitobotta/ansible-fail2ban-role/blob/master/templates/etc/fail2ban/fail2ban.local.j2
+#  * https://github.com/vitobotta/ansible-fail2ban-role/blob/master/templates/etc/fail2ban/jail.local.j2
+#  * https://github.com/vitobotta/ansible-fail2ban-role/blob/master/tasks/main.yml
+---
 - name: install fail2ban
   package:
     name: "{{ fail2ban_packages }}"

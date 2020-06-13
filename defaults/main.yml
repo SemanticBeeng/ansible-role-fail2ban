@@ -1,5 +1,6 @@
 ---
 # defaults file for fail2ban
+# #todo augment with https://github.com/vitobotta/ansible-fail2ban-role/blob/master/defaults/main.yml
 
 fail2ban_loglevel: INFO
 fail2ban_logtarget: /var/log/fail2ban.log
